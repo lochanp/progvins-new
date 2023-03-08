@@ -33,31 +33,31 @@ const home = () => {
               <p className='read-more'>Read More</p>
               <div className='company-features'>
                 <div className='feature'>
-                  <img src=''></img>
+                  {/* <img src=''></img> */}
                   <p>Nature of Business :</p>
                   <p>Serice Provider</p>
                 </div>
                 <div className='feature'>
-                  <img src=''></img>
+                  {/* <img src=''></img> */}
                   <p>Total Number of Employees :</p>
                   <p>11 to 25</p>
                 </div>
                 <div className='feature'>
-                  <img src=''></img>
+                  {/* <img src=''></img> */}
                   <p>Year of Establishment :</p>
                   <p>1980</p>
                 </div>
                 <div className='feature'>
-                  <img src=''></img>
+                  {/* <img src=''></img> */}
                   <p>Legal Status of Firm : </p>
                   <p>Partnership Firm</p>
                 </div><div className='feature'>
-                  <img src=''></img>
+                  {/* <img src=''></img> */}
                   <p>GST Number :</p>
                   <p>27AAHFP7988D1ZP</p>
                 </div>
                 <div className='feature'>
-                  <img src=''></img>
+                  {/* <img src=''></img> */}
                   <p>Nature of Business :</p>
                   <p>Serice Provider</p>
                 </div>
