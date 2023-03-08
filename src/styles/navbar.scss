@@ -1,0 +1,36 @@
+a {
+    text-decoration: none !important;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: 'Titillium Web', sans-serif;
+    .logo {
+        width: 280px;
+        height: 100px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .nav-links {
+        gap: 30px;
+        display: flex;
+        margin-left: 40px;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+        width: 530px;
+        justify-content: center;
+        .link {
+            color: black;
+        }
+    }
+    .contact-num {
+        position: absolute;
+        top: 0px;
+        right: 30px;
+        text-decoration: underline;
+        a {
+            color: black;
+        }
+    }
+}
