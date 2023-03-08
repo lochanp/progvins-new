@@ -1,15 +1,13 @@
-import { useEffect, useState } from "react";
-import logo from "./img/logo.jpg"
 import "./styles/root.scss";
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 import Home from './pages/home/home'
 
 function App() {
-  const [isMobile, setisMobile] = useState()
-  const [openMenu, setopenMenu] = useState(false)
-  useEffect(() => {
-    setisMobile(window.innerWidth >= 200 && window.innerWidth <= 700)
-  }, [])
+  // const [isMobile, setisMobile] = useState()
+  // const [openMenu, setopenMenu] = useState(false)
+  // useEffect(() => {
+  //   setisMobile(window.innerWidth >= 200 && window.innerWidth <= 700)
+  // }, [])
   
   return (
     <div className="">
