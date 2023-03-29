@@ -1,0 +1,47 @@
+.plating-methods {
+    .back-img-plating {
+        background-image: url('../img/plating-bg.jpeg');  
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 18vh;
+        /* z-index: 1; */
+        opacity: 0.94;
+      }
+      .main-content {
+        background-image: url('../img/progvins.png');
+      }
+}
+
+.electroless-page {
+  .back-img-electro {
+    background-image: url('../img/electroless-bg.jpeg');  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 18vh;
+    /* z-index: 1; */
+    opacity: 0.94;
+  }
+  .main-content {
+    background-image: url('../img/progvins.png');
+  }
+}
+.electroplating-page {
+  .back-img-plating {
+    background-image: url('../img/plating-bg.jpeg');  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 18vh;
+    /* z-index: 1; */
+    opacity: 0.94;
+  }
+  .main-content {
+    background-image: url('../img/progvins.png');
+  }
+  .vid {
+    margin: 1rem 25rem;
+    text-align: center !important;
+  }
+}
