@@ -10,22 +10,22 @@ const SilverPlating = () => {
   return (
     <div className='silver-page'>
         <Navbar />
-        <div class="back-img">
-            <h2 class="sub-heading">Services <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+        <div className="back-img">
+            <h2 className="sub-heading">Services <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
             </svg> Silver Plating</h2>
         </div>
-        <div class="main-content">
-            <p class="main-initial">
+        <div className="main-content">
+            <p className="main-initial">
                 At Progvins, we have a long history of intensive research in the field of Silver Plating. More than 
                 two decades ago we carried out the silver plating on aluminum for the electrical and electronic industry.
                 We pioneered the partial silver plating on functional areas of components, there by resulting in dramatic saving in material, process time and cost.
             </p>
         </div>
-        <div class="main">
-            <h1 class="inner-heading">What is Silver Plating ?
+        <div className="main">
+            <h1 className="inner-heading">What is Silver Plating ?
             </h1>
-            <p class="content">
+            <p className="content">
                 At Progvins we have one of the finest chemistries for decorative silver plating. In addition, 
                 the latest techniques of tarnish prevention are employed to keep the Progvins silver plated components
                 bright and functional for a long duration.Like many electroplating processes, silver plating involves 
@@ -37,9 +37,9 @@ const SilverPlating = () => {
                 <img src={silver} height="350vh" alt='' style={{margin:"2rem 6rem"}} /> 
             </div>    
         </div>
-        <div class="main">
-            <h1 class="inner-heading">Silver Electroplating</h1>
-            <p class="content">
+        <div className="main">
+            <h1 className="inner-heading">Silver Electroplating</h1>
+            <p className="content">
                 Silver electroplating is an age-old and well-established process. The classical silver electroplating bath
                 chemistry depends on silver potassium cyanide in water and large amount of free cyanide, usually in the form
                 of potassium cyanide. Many cyanide silver plating baths contain strong chelating agents such as EDTA, making 
@@ -56,14 +56,14 @@ const SilverPlating = () => {
                 <img src={ganpatiSilver} alt='' height="530vh" style={{margin: "2rem" ,marginTop: '3rem'}} /> 
             </div>    
         </div>
-        <div class="main">
-    <h1 class="inner-heading" style={{fontSize: '2rem'}}>Shubhra Non-Cyanide Selective Stroke Brush Silver Electroplating
+        <div className="main">
+    <h1 className="inner-heading" style={{fontSize: '2rem'}}>Shubhra Non-Cyanide Selective Stroke Brush Silver Electroplating
     </h1>
-    <p class="content">
+    <p className="content">
         The Shubhra ™ non-cyanide silver electroplating process contains absolutely no cyanide in any form. 
         As with the current cyanide-based silver electroplating processes, the SHUBHRA™ process operates at room temperature and the bath is alkaline, but with a milder pH value of 10.0.
     </p>  
-        <p class="content">
+        <p className="content">
         Standard equipments are used for the process and standard process sequence is followed. 
         However, no strike silver plating is necessary in the SHUBHRA® process for copper and copper 
         alloys. All organic components of the bath are fully bio-degradable. The process can be carried out 
@@ -73,9 +73,9 @@ const SilverPlating = () => {
     </p> 
         <img src={nonSilver} height="620vh"alt='' style={{marginLeft: "3rem", marginTop: "3rem" ,marginBottom: "2rem"}} />
 </div>
-<div class="main">
-    <h1 class="inner-heading">Shubhra Process for Electrical & Electronic Components</h1>
-    <p class="content">
+<div className="main">
+    <h1 className="inner-heading">Shubhra Process for Electrical & Electronic Components</h1>
+    <p className="content">
         The new process can be used for silver plating of all electrical and electronic components, including 
         toggle and slide switches, contact tips, switchgear components, bus bars, new or worn-out electrical 
         contacts, fasteners, diplexers, antennae parts, bearing surfaces and others. Moreover, the process can 
@@ -93,12 +93,12 @@ const SilverPlating = () => {
     </div>
 </div>
 
-<div class="main-content">
-    <p class="main-initial">    
+<div className="main-content">
+    <p className="main-initial">    
         For more information about Silver Plating Service, call Progvins today on
         7208010008 / 7506588896 to discuss your requirements and get the Latest Price Quote.<br /><br />
-        <a style={{margin: '1rem'}} href="tel:7506588896"><button class="btn btn-light">Call Us</button></a>
-        <a href="mailto:progvins@progvins.com"><button class="btn btn-light">Mail Us</button></a>
+        <a style={{margin: '1rem'}} href="tel:7506588896"><button className="btn btn-light">Call Us</button></a>
+        <a href="mailto:progvins@progvins.com"><button className="btn btn-light">Mail Us</button></a>
     </p>
 </div>
         <Footer />

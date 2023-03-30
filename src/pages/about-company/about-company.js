@@ -7,14 +7,14 @@ const AboutCompany = () => {
   return (
     <div>
         <Navbar />
-        <div class="back-img">
-    <h2 class="sub-heading">About  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+        <div className="back-img">
+    <h2 className="sub-heading">About  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path></svg> Company History</h2>
 </div>
-<div class="main main-one-col">
+<div className="main main-one-col">
     <div>
-        <h1 class="inner-heading">Company History</h1>
-        <p class="content">
+        <h1 className="inner-heading">Company History</h1>
+        <p className="content">
             PROGVINS INDUSTRIES was established as a partnership firm by highly qualified and experienced
             technocrats in Navi Mumbai in 1980. The firm carries out highly specialized job work of electroplating
             and of metal finishing at its plant in Navi Mumbai.
@@ -30,8 +30,8 @@ const AboutCompany = () => {
             Progvins Industries is a member of the Metal Finishers Association of India since many years.
         </p>
         <div style={{display: 'flex'}}>
-            <img class="" style={{width: '47%', height: '400px' ,margin: '0 1rem', marginBottom: '30px'}} src={history} alt="" />
-            <img class="" style={{width: "48%", height: "400px", margin: "0 0rem", marginBottom: "30px"}} src={history1} alt="" />
+            <img className="" style={{width: '47%', height: '400px' ,margin: '0 1rem', marginBottom: '30px'}} src={history} alt="" />
+            <img className="" style={{width: "48%", height: "400px", margin: "0 0rem", marginBottom: "30px"}} src={history1} alt="" />
         </div>
     </div>
 </div>

@@ -8,11 +8,11 @@ const about = () => {
   return (
     <div className='about-page'>
         <Navbar />
-        <div class="back-img">
-            <h2 class="sub-heading sub">ABOUT US</h2>
+        <div className="back-img">
+            <h2 className="sub-heading sub">ABOUT US</h2>
         </div>
-        <div class="main-content">
-            <p class="main-initial">
+        <div className="main-content">
+            <p className="main-initial">
                 PROGVINS INDUSTRIES was established as a partnership firm by highly qualified and experienced
                 technocrats in Navi Mumbai in 1980. The company is owned by Mr. Santosh P. Rane & Dr. Nagaraj N Rao. The firm carries out highly specialized job work of 
                 Precious metal plating and metal finishing at its plant in Navi Mumbai.
@@ -20,9 +20,9 @@ const about = () => {
                 components etc.
             </p>
         </div>  
-        <div class="main">
+        <div className="main">
         <div>
-            <p class="content">
+            <p className="content">
                 Progvins Industries has been carrying out specialized processes of Electroplating and Electroless
                 plating. We are into Precious Metal Plating services like Gold, Silver, Platinum, Palladium, Rhodium
                 for electronics, electrical and semiconductor components. We are also into Precious Metal Deposition.
@@ -34,12 +34,12 @@ const about = () => {
                 Progvins Industries is a member of the Metal Finishers Association of India since many years.
             </p>
             <div>
-                <img class="working-img1" src={Working1} alt="" />
+                <img className="working-img1" src={Working1} alt="" />
             </div>
         </div>
     </div>
-    <div class="main">
-        <p class="content">Progvins’ in-house developments help us in formulating not just our own chemical
+    <div className="main">
+        <p className="content">Progvins’ in-house developments help us in formulating not just our own chemical
             compounds, but also establish the most appropriate plating process sequences to match client needs.
              Before undertaking any job we evaluate and optimize in our pilot plant, all process sequences and 
             parameters, in order to fine-tune the overall processes and method.
@@ -49,7 +49,7 @@ const about = () => {
         </p>    
         <img src={Working2} className='working-img2' alt='work' />
     </div>
-    <table class="Table">
+    <table className="Table">
         <tbody>
         <tr>
         <td>Nature of Business</td>
