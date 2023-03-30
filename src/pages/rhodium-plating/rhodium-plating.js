@@ -39,7 +39,7 @@ Distilled water, steam cleaning and electro cleaning are some ways that the item
 Care must be taken, because if the electric current is too high, the rhodium plating will turn black. The process takes roughly around an hour and a half to be completed.
         </p>
         <div>
-            <img class="middle-img" src={rhodium} />
+            <img class="middle-img" src={rhodium} alt='' />
         </div>
     </div>
 </div>
