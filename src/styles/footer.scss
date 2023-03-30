@@ -1,3 +1,78 @@
+
+@media (max-width: 700px) {
+    .navbar-toggler-icon {
+      background-color: var(--dark-color);
+      padding: 0.4rem 1.6rem 1.5rem 0.6rem;
+      margin-top: 1rem;
+    }
+    .main {
+      column-count: 1 !important;
+    }
+    .sub-heading {
+      font-size: 2rem;
+    }
+    .sub {
+      font-size: 3rem !important;
+    }
+    img {
+      display: block;
+      width: 100%;
+      overflow: hidden;
+    }
+    .navbar-brand {
+      margin-top: 1.2rem;
+      margin-bottom: 0;
+      padding-bottom: 0%;
+    }
+    .nav-link {
+      padding: 0%;
+      margin: 2rem;
+      border: 0 !important;
+    }
+    .tag-line {
+      font-size: 2.5rem;
+      padding: 0%;
+      margin: 0%;
+    }
+    .tag {
+      margin: 1rem;
+    }
+    .btn-main {
+      margin: auto;
+    }
+    .btn-main .btn {
+      margin: auto;
+      font-size: 0.8rem;
+    }
+    .copyright {
+      text-align: left;
+      line-height: 0;
+    }
+    .home-ico {
+      display: none;
+    }
+    .tag a {
+      margin: 1rem !important;
+    }
+    .home-heading {
+      margin-top: 0 !important;
+    }
+    .col-sm-4 {
+      width: 90%;
+    }
+    .vid {
+      width: 90% !important;
+    }
+    .service-img {
+      height: 30vh;
+      padding: 1rem;
+    }
+    .plating-img {
+      margin: auto;
+      width: 90%;
+      padding: 1rem;
+    }
+  }
 .footer-container {
     background-color: #555555;
     color: white;
@@ -20,3 +95,34 @@
         }
     }
 }
+footer {
+    position: relative;
+    width: 100%;
+    background-color: #555555;
+  }
+  .bottom-links {
+    display: block;
+    color: #f1f1f1;
+    padding: 0.4rem;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  .bottom-links:hover {
+    background-color: var(--primary-color);
+  }
+  .copyright {
+    position: absolute;
+    width: 98%;
+    text-align: right;
+    color: white;
+    /* background-color: var(--primary-color); */
+    line-height: 6px;
+    bottom: 0;
+    padding-bottom: 1rem;
+  }
+  .middle-img {
+    margin-top: 5rem !important;
+    width: 85%;
+    margin: 2rem;
+    padding: 0;
+  }
+

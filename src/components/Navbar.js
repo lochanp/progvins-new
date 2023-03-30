@@ -50,7 +50,7 @@ const Navbar = () => {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle dropbtn"
-                  href="services-processes"
+                  href="/services-processes"
                   role="button"
                   aria-expanded="false"
                   >Services</a
@@ -59,35 +59,35 @@ const Navbar = () => {
                   <li>
                     <a
                       className="dropdown-item"
-                      href="gold-service"
+                      href="/gold-service"
                       >Gold Plating</a
                     >
                   </li>
                   <li>
                     <a
                       className="dropdown-item"
-                      href="silver-service"
+                      href="/silver-service"
                       >Sliver Plating</a
                     >
                   </li>
                   <li>
                     <a
                       className="dropdown-item"
-                      href="platinum-service"
+                      href="/platinum-service"
                       >Platinum Plating</a
                     >
                   </li>
                   <li>
                     <a
                       className="dropdown-item"
-                      href="palladium-service"
+                      href="/palladium-service"
                       >Palladium Plating</a
                     >
                   </li>
                   <li>
                     <a
                       className="dropdown-item"
-                      href="rhodium-service"
+                      href="/rhodium-service"
                       >Rhodium Plating</a
                     >
                   </li>
@@ -97,7 +97,7 @@ const Navbar = () => {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle dropbtn"
-                  href="plating-methods"
+                  href="/plating-methods"
                   role="button"
                   aria-expanded="false"
                   >Plating Methods</a
@@ -106,14 +106,14 @@ const Navbar = () => {
                   <li>
                     <a
                       className="dropdown-item"
-                      href="electroless-method"
+                      href="/electroless-method"
                       >Electroless Plating</a
                     >
                   </li>
                   <li>
                     <a
                       className="dropdown-item"
-                      href="electroplating-method"
+                      href="/electroplating-method"
                       >Electroplating</a
                     >
                   </li>
@@ -122,7 +122,7 @@ const Navbar = () => {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle dropbtn"
-                  href="about"
+                  href="/about"
                   role="button"
                   aria-expanded="false"
                   >About Us</a

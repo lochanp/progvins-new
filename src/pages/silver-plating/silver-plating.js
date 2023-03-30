@@ -1,10 +1,14 @@
 import React from 'react'
 import Footer from '../../components/Footer'
 import Navbar from '../../components/Navbar'
+import silver from '../../img/silver.png'
+import ganpatiSilver from '../../img/ganpati-silver.png'
+import nonSilver from '../../img/silver-non.png'
+import shubraElect from '../../img/shubhra-elec.png'
 
 const SilverPlating = () => {
   return (
-    <div>
+    <div className='silver-page'>
         <Navbar />
         <div class="back-img">
             <h2 class="sub-heading">Services <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -30,7 +34,7 @@ const SilverPlating = () => {
                 effective results.
             </p>
             <div>
-                <img src="/imgs/silver.png" height="350vh" alt='' style={{margin:"2rem 6rem"}} /> 
+                <img src={silver} height="350vh" alt='' style={{margin:"2rem 6rem"}} /> 
             </div>    
         </div>
         <div class="main">
@@ -49,7 +53,7 @@ const SilverPlating = () => {
                 alternative for silver plating has been developed in-house, with particular reference to electrical and electronic components.
             </p>
             <div>
-                <img src="\imgs\ganpati-silver.png" alt='' height="530vh" style={{margin: "2rem" ,marginTop: '3rem'}} /> 
+                <img src={ganpatiSilver} alt='' height="530vh" style={{margin: "2rem" ,marginTop: '3rem'}} /> 
             </div>    
         </div>
         <div class="main">
@@ -67,7 +71,7 @@ const SilverPlating = () => {
         0.1. The bath has excellent metal distribution and no immersion deposition occurs. The wear resistivity
          of the coating obtained by the Shubra ® process is superior.  Following typical research and development studies over several years, laboratory trials, pilot-plant trials and commercial trials, this cyanide-free process is now available for electroplating of silver in barrel or vat mode.
     </p> 
-        <img src='\imgs\silver-non.png' height="620vh"alt='' style={{marginLeft: "3rem", marginTop: "3rem" ,marginBottom: "2rem"}} />
+        <img src={nonSilver} height="620vh"alt='' style={{marginLeft: "3rem", marginTop: "3rem" ,marginBottom: "2rem"}} />
 </div>
 <div class="main">
     <h1 class="inner-heading">Shubhra Process for Electrical & Electronic Components</h1>
@@ -85,7 +89,7 @@ const SilverPlating = () => {
         improved waste-water treatment. 
     </p>   
     <div>
-        <img src='imgs/shubhra-elec.png' alt='' />
+        <img src={shubraElect} alt='' />
     </div>
 </div>
 
