@@ -1,5 +1,5 @@
 import "./styles/root.scss";
-import { BrowserRouter,Routes,Route } from "react-router-dom";
+import { Route, BrowserRouter as Router, Routes,Redirect, Link } from 'react-router-dom';
 import Home from './pages/home/home'
 import About from './pages/about/about'
 import Contact from './pages/contact/contact'
@@ -25,26 +25,26 @@ function App() {
   
   return (
     <div className="">
-    <BrowserRouter>
+    <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/work" element={<Work />} />
-        <Route path="/about-company" element={<AboutCompany />} />
-        <Route path="/about-infrastructure" element={<AboutInfrastructure />} />
-        <Route path="/about-quality" element={<AboutQuality />} />
-        <Route path="/plating-methods" element={<PlatingMethods />} />
-        <Route path="/electroplating-method" element={<ElectroPlating />} />
-        <Route path="/electroless-method" element={<ElectrolessPlating />} />
-        <Route path="/services-processes" element={<Services />} />
-        <Route path="/gold-service" element={<GoldService />} />
-        <Route path="/silver-service" element={<SilverPlating />} />
-        <Route path="/platinum-service" element={<PlatinumPlating />} />
-        <Route path="/palladium-service" element={<PalladiumPlating />} />
-        <Route path="/rhodium-service" element={<RhodiumPlating />} />
+      <Route path='/' component={Home} element={<Home/>} />
+        <Route path="/about" component={About} element={<About/>} />
+        <Route path="/contact" component={Contact} element={<Contact />} />
+        <Route path="/work" component={Work } element={<Work />} />
+        <Route path="/about-company" component={AboutCompany} element={<AboutCompany />} />
+        <Route path="/about-infrastructure" component={AboutInfrastructure} element={<AboutInfrastructure/>} />
+        <Route path="/about-quality" component={AboutQuality} element={<AboutQuality />} />
+        <Route path="/plating-methods" component={PlatingMethods} element={<PlatingMethods />} />
+        <Route path="/electroplating-method" component={ElectroPlating} element={<ElectroPlating />} />
+        <Route path="/electroless-method" component={ElectrolessPlating} element={<ElectrolessPlating />} />
+        <Route path="/services-processes" component={Services} element={<Services />} />
+        <Route path="/gold-service" component={GoldService} element={<GoldService />} />
+        <Route path="/silver-service" component={SilverPlating} element={<SilverPlating />} />
+        <Route path="/platinum-service" component={PlatinumPlating} element={<PlatinumPlating />} />
+        <Route path="/palladium-service" component={PalladiumPlating} element={<PalladiumPlating />} />
+        <Route path="/rhodium-service" component={RhodiumPlating } element={<RhodiumPlating />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   </div>
   );
 }
